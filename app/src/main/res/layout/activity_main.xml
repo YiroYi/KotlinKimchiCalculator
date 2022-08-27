@@ -176,10 +176,20 @@
         android:layout_weight="1"
         >
         <Button
+            android:id="@+id/btnPoint"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="."
+            android:background="@color/btnColor"
+            android:layout_margin="2dp"
+            android:onClick="onDecimalPoint"
+            tools:ignore="HardcodedText,UsingOnClickInXml" />
+        <Button
             android:id="@+id/btnZero"
             android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:layout_weight="2"
+            android:layout_weight="1"
             android:text="0"
             android:background="@color/btnColor"
             android:layout_margin="2dp"
