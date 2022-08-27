@@ -64,7 +64,7 @@
             android:text="/"
             android:background="@color/btnColor"
             android:layout_margin="2dp"
-            android:onClick="onDigit"
+            android:onClick="onOperator"
             tools:ignore="HardcodedText,UsingOnClickInXml" />
 
     </LinearLayout>
@@ -114,7 +114,7 @@
             android:text="*"
             android:background="@color/btnColor"
             android:layout_margin="2dp"
-            android:onClick="onDigit"
+            android:onClick="onOperator"
             tools:ignore="HardcodedText,UsingOnClickInXml" />
 
     </LinearLayout>
@@ -164,7 +164,7 @@
             android:text="-"
             android:background="@color/btnColor"
             android:layout_margin="2dp"
-            android:onClick="onDigit"
+            android:onClick="onOperator"
             tools:ignore="HardcodedText,UsingOnClickInXml" />
 
     </LinearLayout>
@@ -213,7 +213,7 @@
             android:text="+"
             android:background="@color/btnColor"
             android:layout_margin="2dp"
-            android:onClick="onDigit"
+            android:onClick="onOperator"
             tools:ignore="HardcodedText,UsingOnClickInXml" />
 
 
